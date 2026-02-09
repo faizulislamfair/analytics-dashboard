@@ -40,7 +40,7 @@ npm run dev
 
 ## Tech Stack Used
 
-- **Framework**: [Next.js 15](https://nextjs.org) (App Router)
+- **Framework**: Next.js 15 (App Router)
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
 - **State Management**: Zustand
