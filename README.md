@@ -40,13 +40,13 @@ npm run dev
 
 ## Tech Stack Used
 
-- **Framework**: [Next.js 15](https://nextjs.org) - React framework with App Router
-- **Language**: TypeScript - Type-safe development
-- **Styling**: CSS Modules & PostCSS - Component-scoped styling
-- **State Management**: Zustand - Lightweight state management
+- **Framework**: [Next.js 15](https://nextjs.org) (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **State Management**: Zustand
 - **UI Components**: Custom React components with responsive design
-- **Data Visualization**: Chart.js/Recharts compatible components
-- **Deployment**: Vercel - Optimized Next.js hosting
+- **Data Visualization**: Recharts components
+- **Deployment**: Vercel
 
 <br>
 
