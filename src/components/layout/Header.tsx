@@ -141,7 +141,7 @@ const Header = memo(() => {
                     {userRole === 'admin' ? 'Admin User' : 'Manager User'}
                   </p>
                   <p className="text-xs text-gray-500">
-                    {userRole === 'admin' ? 'admin@example.com' : 'manager@example.com'}
+                    {userRole === 'admin' ? 'admin@gmail.com' : 'manager@gmail.com'}
                   </p>
                   <p className="text-xs text-blue-600 dark:text-blue-400 mt-1 font-medium capitalize">
                     {userRole} Role

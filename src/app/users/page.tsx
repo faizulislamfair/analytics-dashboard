@@ -20,11 +20,11 @@ export default function UsersPage() {
   }
 
   const mockUsers = [
-    { id: 1, name: 'John Doe', email: 'john@example.com', type: 'Premium', status: 'Active', joinDate: '2024-01-15' },
-    { id: 2, name: 'Jane Smith', email: 'jane@example.com', type: 'Enterprise', status: 'Active', joinDate: '2024-01-10' },
-    { id: 3, name: 'Bob Johnson', email: 'bob@example.com', type: 'Free', status: 'Active', joinDate: '2024-01-20' },
-    { id: 4, name: 'Alice Brown', email: 'alice@example.com', type: 'Premium', status: 'Inactive', joinDate: '2023-12-15' },
-    { id: 5, name: 'Charlie Wilson', email: 'charlie@example.com', type: 'Enterprise', status: 'Active', joinDate: '2024-01-05' },
+    { id: 1, name: 'John Doe', email: 'john@gmail.com', type: 'Premium', status: 'Active', joinDate: '2024-01-15' },
+    { id: 2, name: 'Jane Smith', email: 'jane@gmail.com', type: 'Enterprise', status: 'Active', joinDate: '2024-01-10' },
+    { id: 3, name: 'Bob Johnson', email: 'bob@gmail.com', type: 'Free', status: 'Active', joinDate: '2024-01-20' },
+    { id: 4, name: 'Alice Brown', email: 'alice@gmail.com', type: 'Premium', status: 'Inactive', joinDate: '2023-12-15' },
+    { id: 5, name: 'Charlie Wilson', email: 'charlie@gmail.com', type: 'Enterprise', status: 'Active', joinDate: '2024-01-05' },
   ];
 
   const typeColors = {

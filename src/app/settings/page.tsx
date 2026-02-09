@@ -48,7 +48,7 @@ export default function SettingsPage() {
               </div>
               <button
                 onClick={toggleTheme}
-                className="flex items-center gap-2 px-4 py-2 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 rounded-lg transition-colors"
+                className="flex items-center gap-2 px-4 py-2 bg-gray-700 hover:bg-gray-600 rounded-lg transition-colors"
               >
                 {theme === 'light' ? (
                   <>
@@ -93,7 +93,7 @@ export default function SettingsPage() {
                     Email
                   </h3>
                   <p className="text-sm text-gray-600 dark:text-gray-400">
-                    {userRole === 'admin' ? 'admin@example.com' : 'manager@example.com'}
+                    {userRole === 'admin' ? 'admin@gmail.com' : 'manager@gmail.com'}
                   </p>
                 </div>
                 <button className="text-sm text-blue-600 hover:text-blue-700 dark:text-blue-400 dark:hover:text-blue-300">
