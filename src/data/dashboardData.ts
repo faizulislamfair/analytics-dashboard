@@ -1,0 +1,51 @@
+import { KPIData, RevenueData, OrderData, UserDistribution, TrafficSource } from '@/types';
+
+export const stats: KPIData = {
+  totalRevenue: 54230,
+  totalUsers: 1245,
+  orders: 342,
+  conversionRate: 4.3,
+};
+
+export const revenue: RevenueData[] = [
+  { month: 'Jan', revenue: 42000 },
+  { month: 'Feb', revenue: 38000 },
+  { month: 'Mar', revenue: 45000 },
+  { month: 'Apr', revenue: 48000 },
+  { month: 'May', revenue: 52000 },
+  { month: 'Jun', revenue: 49000 },
+  { month: 'Jul', revenue: 51000 },
+  { month: 'Aug', revenue: 53000 },
+  { month: 'Sep', revenue: 50000 },
+  { month: 'Oct', revenue: 54000 },
+  { month: 'Nov', revenue: 55000 },
+  { month: 'Dec', revenue: 54230 },
+];
+
+export const orders: OrderData[] = [
+  { month: 'Jan', orders: 280 },
+  { month: 'Feb', orders: 250 },
+  { month: 'Mar', orders: 300 },
+  { month: 'Apr', orders: 320 },
+  { month: 'May', orders: 350 },
+  { month: 'Jun', orders: 330 },
+  { month: 'Jul', orders: 340 },
+  { month: 'Aug', orders: 360 },
+  { month: 'Sep', orders: 345 },
+  { month: 'Oct', orders: 370 },
+  { month: 'Nov', orders: 380 },
+  { month: 'Dec', orders: 342 },
+];
+
+export const users: UserDistribution[] = [
+  { type: 'Free', value: 750, color: '#3b82f6' },
+  { type: 'Premium', value: 350, color: '#8b5cf6' },
+  { type: 'Enterprise', value: 145, color: '#10b981' },
+];
+
+export const traffic: TrafficSource[] = [
+  { source: 'Organic', value: 45, color: '#3b82f6' },
+  { source: 'Paid', value: 30, color: '#8b5cf6' },
+  { source: 'Social', value: 15, color: '#10b981' },
+  { source: 'Referral', value: 10, color: '#f59e0b' },
+];
